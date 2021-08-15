@@ -1,1 +1,23 @@
-This is my notepad file.
+1st step:
+we open cmder
+
+2: ssh-keygen -t rsa -C "your@email.com"
+It will create a file in C:\Users\Username\.ssh
+
+3: When it is finished cat the file to view the content.
+
+4. Go to Setting in github, and add a new ssh key
+paste the content
+
+5. Give the following 2 commands in ssh
+git config --global user.email "mshaminali@gmail.com"
+git config --global user.name "Shamin"
+
+
+6. Create a notepad file called "note1.txt"
+
+7. enter command "git add -A"
+
+8. enter commit "git commit -m "first commit"
+
+9. git push
